@@ -1,4 +1,4 @@
-package co.udea.heroes.api.exception;
+package co.udea.hero.api.exception;
 
 /**
  * Generic abstract exception created to identify all Exceptions.

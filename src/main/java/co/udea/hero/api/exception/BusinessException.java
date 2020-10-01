@@ -1,4 +1,4 @@
-package co.udea.heroes.api.exception;
+package co.udea.hero.api.exception;
 
 /**
  * Exception for duplicated data in the application

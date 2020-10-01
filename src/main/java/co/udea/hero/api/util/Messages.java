@@ -1,4 +1,4 @@
-package co.udea.heroes.api.util;
+package co.udea.hero.api.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
