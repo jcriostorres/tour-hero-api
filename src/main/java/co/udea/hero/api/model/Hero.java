@@ -1,9 +1,6 @@
 package co.udea.hero.api.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 
 @Entity
@@ -11,6 +8,7 @@ import javax.validation.constraints.NotNull;
 public class Hero {
 
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name="id")
     private Integer id;
 
