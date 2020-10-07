@@ -14,3 +14,11 @@ INSERT INTO public.heroes(
 INSERT INTO public.heroes(
 	id, name)
 	VALUES (2, 'Spider-Man');
+
+INSERT INTO public.heroes(
+	id, name)
+	VALUES (3, 'Hulk');
+
+INSERT INTO public.heroes(
+	id, name)
+	VALUES (2, 'Superman');
